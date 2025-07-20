@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comparador de Precios</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🛒 Comparador de Ofertas</h1>
+    <input type="text" id="query" placeholder="¿Qué estás buscando?" />
+    <button onclick="buscar()">Buscar</button>
+
+    <h2>Resultados:</h2>
+    <ul id="resultados"></ul>
+    <div id="mejor-oferta"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
